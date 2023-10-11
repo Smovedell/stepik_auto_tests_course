@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 def test_add_to_basket_button(browser):
     assert browser.find_element(By.CSS_SELECTOR, '.btn-add-to-basket')
+    time.sleep(10)
 
 
 
